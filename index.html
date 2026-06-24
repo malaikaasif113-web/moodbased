@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Mood Based Cooking</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Mood Based Cooking</h1>
+
+    <p>What is your mood today? Based on that choose a recipe!</p>
+
+    <div class="buttons">
+
+        <button class="happy"
+        onclick="showRecipe('happy')">
+        Happy
+        </button>
+
+        <button class="sad"
+        onclick="showRecipe('sad')">
+        Sad
+        </button>
+
+        <button class="fancy"
+        onclick="showRecipe('fancy')">
+        Fancy
+        </button>
+
+    </div>
+
+
+    <div id="recipe">
+
+        <h2 id="title"></h2>
+
+        <p id="description"></p>
+
+        <ul id="foodList"></ul>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
