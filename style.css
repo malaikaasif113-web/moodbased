@@ -1,0 +1,109 @@
+body{
+
+    margin:0;
+
+    font-family:Arial;
+
+    background:#f6f1ea;
+
+    text-align:center;
+
+}
+
+.container{
+
+    padding:40px;
+
+}
+
+h1{
+
+    color:#7b4f35;
+
+}
+
+p{
+
+    color:#666;
+
+}
+
+.buttons{
+
+    margin-top:30px;
+
+}
+
+button{
+
+    width:170px;
+
+    padding:14px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+.happy{
+
+    background:#f4c27a;
+
+}
+
+.tired{
+
+    background:#b9d7ea;
+
+}
+
+.fancy{
+
+    background:#d7c3f1;
+
+}
+
+#recipe{
+
+    width:450px;
+
+    margin:auto;
+
+    margin-top:40px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 10px lightgray;
+
+    display:none;
+
+}
+
+ul{
+
+    text-align:left;
+
+    width:220px;
+
+    margin:auto;
+
+}
